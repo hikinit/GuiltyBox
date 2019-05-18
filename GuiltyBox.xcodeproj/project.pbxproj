@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29416665228FC112003D4F81 /* KAudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29416664228FC112003D4F81 /* KAudioRecorder.swift */; };
 		29FB4E26228FBBDC0084E2C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FB4E25228FBBDC0084E2C5 /* AppDelegate.swift */; };
 		29FB4E28228FBBDC0084E2C5 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FB4E27228FBBDC0084E2C5 /* HomeVC.swift */; };
 		29FB4E2B228FBBDC0084E2C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29FB4E29228FBBDC0084E2C5 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29416664228FC112003D4F81 /* KAudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAudioRecorder.swift; sourceTree = "<group>"; };
 		29FB4E22228FBBDC0084E2C5 /* GuiltyBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuiltyBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FB4E25228FBBDC0084E2C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29FB4E27228FBBDC0084E2C5 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		29FB4E24228FBBDC0084E2C5 /* GuiltyBox */ = {
 			isa = PBXGroup;
 			children = (
+				29FB4E3B228FC0160084E2C5 /* Helpers */,
 				29FB4E38228FBD850084E2C5 /* Views */,
 				29FB4E37228FBD790084E2C5 /* Controllers */,
 				29FB4E25228FBBDC0084E2C5 /* AppDelegate.swift */,
@@ -94,6 +97,14 @@
 				29FB4E27228FBBDC0084E2C5 /* HomeVC.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		29FB4E3B228FC0160084E2C5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				29416664228FC112003D4F81 /* KAudioRecorder.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29FB4E28228FBBDC0084E2C5 /* HomeVC.swift in Sources */,
+				29416665228FC112003D4F81 /* KAudioRecorder.swift in Sources */,
 				29FB4E26228FBBDC0084E2C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
