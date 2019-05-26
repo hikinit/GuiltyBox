@@ -10,6 +10,7 @@
 		2961BD022290075B008543C3 /* AGAudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2961BD012290075B008543C3 /* AGAudioRecorder.swift */; };
 		29AFF44A2290FC6D00573283 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AFF4492290FC6D00573283 /* Extensions.swift */; };
 		29AFF44C2290FF7A00573283 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AFF44B2290FF7A00573283 /* Theme.swift */; };
+		29CCBA1B229A5F7700CEAFB0 /* Roboto in Resources */ = {isa = PBXBuildFile; fileRef = 29CCBA1A229A5F7700CEAFB0 /* Roboto */; };
 		29FB4E26228FBBDC0084E2C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FB4E25228FBBDC0084E2C5 /* AppDelegate.swift */; };
 		29FB4E28228FBBDC0084E2C5 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FB4E27228FBBDC0084E2C5 /* HomeVC.swift */; };
 		29FB4E2B228FBBDC0084E2C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29FB4E29228FBBDC0084E2C5 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		2961BD012290075B008543C3 /* AGAudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGAudioRecorder.swift; sourceTree = "<group>"; };
 		29AFF4492290FC6D00573283 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		29AFF44B2290FF7A00573283 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		29CCBA1A229A5F7700CEAFB0 /* Roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Roboto; sourceTree = "<group>"; };
 		29FB4E22228FBBDC0084E2C5 /* GuiltyBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuiltyBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FB4E25228FBBDC0084E2C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29FB4E27228FBBDC0084E2C5 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29CCBA19229A5F4C00CEAFB0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				29CCBA1A229A5F7700CEAFB0 /* Roboto */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		29FB4E19228FBBDC0084E2C5 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 		29FB4E24228FBBDC0084E2C5 /* GuiltyBox */ = {
 			isa = PBXGroup;
 			children = (
+				29CCBA19229A5F4C00CEAFB0 /* Fonts */,
 				29FB4E3B228FC0160084E2C5 /* Helpers */,
 				29FB4E38228FBD850084E2C5 /* Views */,
 				29FB4E37228FBD790084E2C5 /* Controllers */,
@@ -174,6 +185,7 @@
 				29FB4E30228FBBDD0084E2C5 /* LaunchScreen.storyboard in Resources */,
 				29FB4E2D228FBBDD0084E2C5 /* Assets.xcassets in Resources */,
 				29FB4E2B228FBBDC0084E2C5 /* Main.storyboard in Resources */,
+				29CCBA1B229A5F7700CEAFB0 /* Roboto in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -54,6 +54,14 @@ class AGAudioRecorder: NSObject {
         self.check_record_permission()
     }
     
+    func setState(_ state: AGAudioRecorderState){
+        recorderState = state
+    }
+    
+    func getState() -> AGAudioRecorderState{
+        return self.recorderState
+    }
+    
     private func check_record_permission() {
         
         switch AVAudioSession.sharedInstance().recordPermission {
@@ -106,7 +114,7 @@ class AGAudioRecorder: NSObject {
             let session = AVAudioSession.sharedInstance()
             do {
                 try session.setCategory(.playAndRecord, options: .defaultToSpeaker)
-                try session.setActive(true)
+//                try session.setActive(true)
                 let settings = [
                     AVFormatIDKey: Int(kAudioFormatMPEG4AAC),
                     AVSampleRateKey: 44100,
@@ -164,7 +172,7 @@ class AGAudioRecorder: NSObject {
         }
     }
     
-    func playEngine(){
+    func playEngine(pitch: Float = 0){
         do {
             audioEngine = AVAudioEngine()
             audioPitch = AVAudioUnitTimePitch()
@@ -186,7 +194,7 @@ class AGAudioRecorder: NSObject {
             try audioEngine.start()
             audioPlayer.play()
             
-            audioPitch.pitch = -400
+            audioPitch.pitch = pitch
             
             recorderState = .Play
 
