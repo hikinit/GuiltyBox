@@ -34,6 +34,10 @@ class HomeVC: UIViewController {
         recordingButton.backgroundColor = Color.primary.get()
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     @objc func recordingTapped(){
         switch audioRecorder.getState() {
         case .Ready:

@@ -25,7 +25,7 @@
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>GuiltyBox needs Microphone accept your confession</string>
+	<string>$(PRODUCT_NAME) needs microphone access</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
